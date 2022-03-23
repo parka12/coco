@@ -26,59 +26,67 @@
     </div>
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header__title">Chats</h1>
+        <h1 class="header__title">Friends</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
         <span class="header__icon">
-          <i class="fas fa-comment"></i>
-        </span>
-        <span class="header__icon">
-          <i class="fas fa-cog"></i>
+          <i class="fas fa-user-plus"></i>
         </span>
       </div>
     </header>
-    <main class="chats">
-      <ul class="chats__list">
-        <li class="chats__chat chat">
-          <a href="chat.html">
-            <div class="chats__chat friend friend--lg">
-              <div class="friend__column">
-                <img
-                  src="images/purple-flowers-g258e58869_640.jpg"
-                  class="m-avatar friend__avatar"
-                />
-                <div class="friend__content">
-                  <span class="friend__name"> Hana </span>
-                  <span class="friend__bottom-text"> Going home! </span>
-                </div>
-              </div>
-              <div class="friend__column">
-                <span class="chat__timestamp"> March 8 </span>
-              </div>
+    <main class="friends">
+      <header class="friends__header">
+        <div class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img
+              src="images/clouds-ge5e76bee3_1280.jpg"
+              class="friend__avatar g-avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name"> Canna san </span>
+              <span class="friend__status"> maderagon </span>
             </div>
-          </a>
-        </li>
-        <li class="chats__chat chat">
-          <a href="chat.html">
-            <div class="chats__chat friend friend--lg">
-              <div class="friend__column">
-                <img
-                  src="images/ice-g3ec35c011_1280.jpg"
-                  class="m-avatar friend__avatar"
-                />
-                <div class="friend__content">
-                  <span class="friend__name"> akane </span>
-                  <span class="friend__bottom-text"> kawaii! </span>
-                </div>
-              </div>
-              <div class="friend__column">
-                <span class="chat__timestamp"> March 31 </span>
-              </div>
+          </div>
+        </div>
+      </header>
+      <div class="friends__plus">
+        <h5 class="friends__title">Plus friend</h5>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img
+              src="images/christmas-g4b054e72a_1280.jpg"
+              class="friend__avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name"> Plus Friend </span>
             </div>
-          </a>
+          </div>
+        </div>
+      </div>
+      <ul class="friends__list">
+        <h5 class="friends__title">Friends 14</h5>
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img
+              src="images/purple-flowers-g258e58869_640.jpg"
+              class="friend__avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name"> Liebe </span>
+              <span class="friend__status"> mya! </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>
+                GRAVITY(TAEYEON)
+                <i class="fas fa-play"></i>
+              </span>
+            </div>
+          </div>
         </li>
       </ul>
     </main>
@@ -86,13 +94,13 @@
       <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-lik"
-            ><i class="far fa-user"></i
+            ><i class="fa-solid fa-user"></i
           ></a>
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-lik">
             <div class="nav__badge">8</div>
-            <i class="fa-solid fa-comment"></i>
+            <i class="far fa-comment"></i>
           </a>
         </li>
         <li class="nav__list-item">

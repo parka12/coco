@@ -3,6 +3,11 @@
 @import "status-bar.css";
 @import "header.css";
 @import "friend.css";
+@import "nav-bar.css";
+
+* {
+    box-sizing: border-box;
+}
 
 body {
     background-color: white;
