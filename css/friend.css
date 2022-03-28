@@ -132,3 +132,77 @@
     padding-bottom: 0px;
     font-size: 20px;
 }
+
+.more .my {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.more .av {
+    width: 70px;
+    height: 70px;
+    border-radius: 38%;
+    margin-right: 15px;
+}
+
+.more .myp {
+    display: flex;
+    align-items: center;
+}
+
+.myc .myn {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+.myc .mys {
+    opacity: 0.6;
+    font-size: 18px;
+}
+
+.myi i {
+    font-size: 30px;
+}
+
+.more .menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 150px;
+    border-bottom: 1px solid #f7f7f7;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.more .menu .menu__part i {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.more .menu .menu__part p {
+    font-size: 18px;
+}
+
+.more .ti {
+    font-size: 25px;
+}
+
+.more .pk {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.more .pkp i {
+    font-size: 30px;
+    padding: 10px;
+    background-color: darkorange;
+    border-radius: 38%;
+    margin-bottom: 10px;
+}
