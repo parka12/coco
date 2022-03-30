@@ -35,3 +35,18 @@
 .nav .nav__list-lik {
     position: relative;
 }
+
+@keyframes showNavBar {
+    from {
+        transform: translateY(80px);
+    }
+    to {
+        transform: none;
+    }
+}
+
+.nav {
+    transform: translateY(80px);
+    animation: showNavBar .5s ease-out forwards;
+    animation-delay: .5s;
+}

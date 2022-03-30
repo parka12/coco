@@ -4,6 +4,7 @@
 @import "header.css";
 @import "friend.css";
 @import "nav-bar.css";
+@import "chat.css";
 
 * {
     box-sizing: border-box;
@@ -19,4 +20,19 @@ body {
 a {
     color: inherit;
     text-decoration: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: none;
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+main {
+    animation: fadeIn .5s ease-in-out;
 }
